@@ -8,14 +8,12 @@ int getTotalX(vector <int> a, vector <int> b) {
     if(a.size()==1)
     {
         lcm=a[0];
-        //count--;
     }
     else
     lcm=a[0]*a[1]/GCD(a[0],a[1]);
     if(b.size()==1)
     {
         hcf=b[0];
-        //count--;
     }
     hcf=GCD(b[0],b[1]);
     for(int i=2;i<a.size();i++)
